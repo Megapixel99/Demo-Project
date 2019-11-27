@@ -17,9 +17,9 @@ const router = express.Router(); // using the express router
 
 router.get('/generate/auth/token', (req, res) => { // generate authentication token
   const token = jwt.sign({
-      username: process.env.AUTH_USERNAME
-    },
-    process.env.AUTH_SECRET);
+    username: process.env.AUTH_USERNAME
+  },
+  process.env.AUTH_SECRET);
   res.status(200).send(token);
 });
 

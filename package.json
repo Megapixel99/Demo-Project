@@ -5,7 +5,7 @@
   "main": "server.js",
   "publishConfig": {
     "registry": "https://npm.pkg.github.com/"
-  }
+  },
   "scripts": {
     "pretest": "eslint --fix ./",
     "prestart": "eslint --fix ./",
