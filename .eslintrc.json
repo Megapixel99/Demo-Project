@@ -1,0 +1,29 @@
+{
+  "extends": ["eslint:recommended", "airbnb"],
+  "parserOptions": {
+    "ecmaVersion": 8,
+    "sourceType": "script"
+  },
+  "rules": {
+    "strict": "off",
+    "semi": [1, "always"],
+    "default-case": "error",
+    "no-unused-vars": "error",
+    "no-useless-escape": "off",
+    "no-console": "off",
+    "no-var": "off",
+    "comma-dangle": "off",
+    "prefer-template": "off",
+    "no-bitwise": "off",
+    "no-mixed-operators": "off",
+    "class-methods-use-this": "off",
+    "no-useless-concat": "off",
+    "object-shorthand": "off",
+    "no-unexpected-multiline": "off",
+    "max-len": "off",
+    "no-await-in-loop": "off"
+  },
+  "env": {
+    "node": true
+  }
+}
